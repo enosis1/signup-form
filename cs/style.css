@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.footer-link {
+    color: inherit;
+}
+
+.left {
+    background-image: url("/img/sidebar.jpg");
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.odin-sidebar {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%; 
+    padding: 10px 0;
+}
+
+.sidebar-footer{
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.odin-picture {
+    width: min(20%, 40%);
+}
+
+.odin-text {
+    color: white;
+    font-size: 6rem;
+}
