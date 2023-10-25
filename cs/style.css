@@ -5,6 +5,7 @@
 body {
   height: 100vh;
   display: flex;
+  background-color: lightgray;
 }
 
 .footer-link {
@@ -13,9 +14,11 @@ body {
 
 .left {
     background-image: url("/img/sidebar.jpg");
-    background-size: 100% auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+    min-width: 40%;
+    flex-shrink: 0;
 }
 
 .odin-sidebar {
@@ -41,4 +44,39 @@ body {
 .odin-text {
     color: white;
     font-size: 6rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-header {
+    font-size: xx-large;
+}
+
+.right-header,
+.right-middle,
+.right-bottom {
+    padding-left: 3%;
+    padding-right: 10%;
+}
+
+.right-top, .right-middle {
+    margin-bottom: 8%;
+}
+
+.right-middle {
+    background: white;
+    padding: 10px 10% 10px 3%;
+}
+
+.form-left-right {
+    display: flex;
+}
+
+.form-row {
+    width: 400px;
+    font-size: 1.2rem;
 }
