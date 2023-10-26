@@ -1,82 +1,77 @@
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
 body {
   height: 100vh;
   display: flex;
-  background-color: lightgray;
+  background-color: #f4f5f8;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-link {
-    color: inherit;
+  color: inherit;
 }
 
 .left {
-    background-image: url("/img/sidebar.jpg");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-width: 40%;
-    flex-shrink: 0;
+  background-image: url("/img/sidebar.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  max-width: 33%;
+  flex-shrink: 0;
 }
 
 .odin-sidebar {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25%; 
-    padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+  width: auto;
+  padding: 10px 0;
 }
 
-.sidebar-footer{
-    color: white;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: 20px;
+.sidebar-footer {
+  color: white;
+  opacity: 80%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
 }
 
 .odin-picture {
-    width: min(20%, 40%);
+  width: min(20%, 40%);
 }
 
 .odin-text {
-    color: white;
-    font-size: 6rem;
+  color: white;
+  font-size: 4rem;
 }
+
+/* Right side */
 
 .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin-top: 15vh;
 }
 
-.right-header {
-    font-size: xx-large;
-}
-
-.right-header,
-.right-middle,
+.right-top,
+.form-main,
 .right-bottom {
-    padding-left: 3%;
-    padding-right: 10%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.right-top, .right-middle {
-    margin-bottom: 8%;
+form > button {
+  margin-left: 40px;
 }
 
-.right-middle {
-    background: white;
-    padding: 10px 10% 10px 3%;
-}
-
-.form-left-right {
-    display: flex;
-}
-
-.form-row {
-    width: 400px;
-    font-size: 1.2rem;
+.form-main {
+  background-color: white;
 }
