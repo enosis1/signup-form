@@ -65,6 +65,7 @@ body {
   flex-direction: column;
   gap: 75px;
   margin-top: 15vh;
+  width: 100vw;
 }
 
 .right-top,
@@ -125,6 +126,7 @@ form > button {
   font-size: 0.7rem;
   color: red;
 }
+
 input {
   border: 1px solid #eaebee;
   border-radius: 3px;
