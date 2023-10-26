@@ -163,6 +163,7 @@ form button {
   color: white;
   font-size: 1rem;
   box-shadow: 1px 1px 5px lightgray;
+  cursor: pointer;
 }
 
 .right-bottom {
@@ -173,4 +174,12 @@ span a {
   text-decoration: none;
   color: #596d48;
   font-weight: bold;
+}
+
+form button:hover {
+  background-color: #75925e;
+}
+
+form button:active {
+  background-color: #3b4830;
 }
